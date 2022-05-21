@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .internalCSS {
+            position: relative;
+            left: 330px;
+            background-color: rgb(165, 194, 248);
+            height: 5rem;
+            width: 30rem;
+            border-radius: 50px 0px 0px 50px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        .internalCSS>h2,
+        .internalCSS>h5 {
+            margin-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display:flex;justify-content: center;align-items: center;flex-direction: column;">
+        <h1 class="heading">This is an Example to Show Inline,External, Internal CSS</h1>
+
+        <div style="display:flex;flex-direction:column;margin-top: 50px; width: 65%;">
+            <div class="inlineCSS css"
+                style="background-color: rgb(248, 248, 165); height: 5rem; width: 30rem;border-radius: 0px 50px 50px 0; display: flex;justify-content: center; flex-direction: column;">
+                <h2 style="margin-left: 20px;">Hello, I am Inline CSS</h2>
+                <h5 style="margin-left: 20px;">Hover Over me to get Details</h5>
+            </div>
+            <div class="internalCSS css">
+                <h2>Hello, I am Internal CSS</h2>
+                <h5>Hover Over me to get Details</h5>
+            </div>
+            <div class="externalCSS css">
+                <h2>Hello, I am External CSS</h2>
+                <h5>Hover Over me to get Details</h5>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

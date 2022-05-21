@@ -1,0 +1,23 @@
+/* Top Program----------------------------------- */
+a {
+  text-decoration: none;
+}
+table {
+  background-color: #2458bc;
+  border-radius: 30px;
+}
+td:first-child:hover {
+  background-color: #1046ac;
+  border-radius: 20px 0 0 20px;
+}
+td:hover {
+  background-color: #1046ac;
+}
+td:last-child:hover {
+  background-color: #1046ac;
+  border-radius: 0 20px 20px 0;
+}
+a > font {
+  color: white;
+}
+/* --------------------------------------------------------- */
