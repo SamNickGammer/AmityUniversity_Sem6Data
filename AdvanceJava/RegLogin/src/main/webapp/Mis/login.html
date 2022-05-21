@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Login</title>
+</head>
+<style>
+    body {
+        background-color: aquamarine;
+    }
+
+    table,
+    tr,
+    td {
+        border: 1px solid coral;
+    }
+
+    table {
+        background-color: coral;
+    }
+
+    table.center {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+    }
+
+    button:hover {
+        opacity: 0.8;
+    }
+</style>
+
+<body>
+    <form action="check.jsp" method="post" name="login">
+        <table class="center">
+            <tr>
+                <th>SIGN IN</th>
+            </tr>
+            <tr>
+                <td><label>ID</label></td>
+            </tr>
+            <tr>
+                <td width=300 height=50>
+                    <input type="text" placeholder="Enter UserName" name=id>
+                </td>
+            </tr>
+            <tr>
+                <td><label>PASSWORD</label></td>
+            </tr>
+            <tr>
+                <td width=300 height=50>
+                    <input type="password" placeholder="Enter password" name=pwd>
+                </td>
+            </tr>
+            <tr>
+	                <td width=300 height=50 style="text-align: center;">
+	                    <button type="submit">LOGIN</button>
+	                </td>
+	            </tr>
+	            <tr>
+                <td>
+                    <a href=fpwd.html>Forgot Password</a>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
